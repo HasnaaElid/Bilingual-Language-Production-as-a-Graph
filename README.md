@@ -17,7 +17,7 @@ By modeling the brain as a network of interacting regions, the project examines 
 
 ---
 
-## 📊 Contents
+##  Contents
 
 | File | Description |
 |------|--------------|
@@ -26,7 +26,7 @@ By modeling the brain as a network of interacting regions, the project examines 
 
 ---
 
-## 🧠 Approach
+## Approach
 
 1. **Data preparation** — Extract regional time series using the Schaefer-2018 brain atlas (100 parcels).  
 2. **Graph construction** — Build a functional connectivity graph per run, keeping the five strongest connections per node.  
@@ -38,7 +38,7 @@ By modeling the brain as a network of interacting regions, the project examines 
 
 ---
 
-## 🧩 Key Results
+## Key Results
 
 - **Small-world organization** observed in both tasks, consistent with efficient neural communication.  
 - **Right somatomotor and salience networks** showed increased centrality during speech — reflecting higher articulatory and attentional control.  
@@ -50,14 +50,14 @@ By modeling the brain as a network of interacting regions, the project examines 
 
 ---
 
-## 🧠 Interpretation
+## Interpretation
 
 Hesitation in bilingual speech may reflect not weakness but the **neural coordination cost** of managing two active language systems.  
 Graph-based modeling helps visualize this cost and offers interpretable, data-driven evidence of bilingual brain flexibility.
 
 ---
 
-## ⚙️ Environment
+## Environment
 
 ```bash
 pip install -r requirements.txt
